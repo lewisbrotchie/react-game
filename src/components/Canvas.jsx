@@ -1,4 +1,5 @@
 import React from "react";
+import Sky from "./Sky";
 
 const Canvas = () => {
   const viewBox = [
@@ -13,6 +14,7 @@ const Canvas = () => {
       preserveAspectRatio="xMaxYMax none"
       viewBox={viewBox}
     >
+      <Sky />
       <circle cx={0} cy={0} r={50} />
     </svg>
   );
