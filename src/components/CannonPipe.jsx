@@ -51,7 +51,7 @@ const CannonPipe = props => {
   );
 };
 
-CannonPipe.PropTypes = {
+CannonPipe.propTypes = {
   rotation: PropTypes.number.isRequired
 };
 
